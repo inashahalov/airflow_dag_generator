@@ -165,10 +165,8 @@ CREATE INDEX idx_users ON users(id);
 - Python 3.8+
 - Apache Airflow 2.9.2
 
-## Лицензия
 
-MIT License
 
 ## Автор
 
-[Ваше имя/компания]
+[Илья Нашахалов]
