@@ -169,4 +169,4 @@ CREATE INDEX idx_users ON users(id);
 
 ## Автор
 
-[Илья Нашахалов]
+Илья Нашахалов
