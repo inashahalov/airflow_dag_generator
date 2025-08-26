@@ -1,0 +1,1328 @@
+[2025-08-25T18:05:25.591+0000] {processor.py:161} INFO - Started process (PID=71) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:05:25.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:05:25.599+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:05:25.598+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:05:25.635+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:05:25.618+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:05:25.637+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:05:28.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 2.557 seconds
+[2025-08-25T18:05:58.413+0000] {processor.py:161} INFO - Started process (PID=73) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:05:58.416+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:05:58.423+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:05:58.422+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:05:58.434+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:05:58.430+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:05:58.436+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:05:58.473+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.070 seconds
+[2025-08-25T18:06:28.711+0000] {processor.py:161} INFO - Started process (PID=81) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:06:28.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:06:28.717+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:06:28.716+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:06:28.724+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:06:28.722+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:06:28.725+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:06:28.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.071 seconds
+[2025-08-25T18:06:59.001+0000] {processor.py:161} INFO - Started process (PID=89) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:06:59.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:06:59.016+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:06:59.015+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:06:59.031+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:06:59.028+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:06:59.032+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:06:59.092+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.110 seconds
+[2025-08-25T18:07:29.342+0000] {processor.py:161} INFO - Started process (PID=103) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:07:29.344+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:07:29.348+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:07:29.347+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:07:29.356+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:07:29.354+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:07:29.357+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:07:29.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.059 seconds
+[2025-08-25T18:07:59.610+0000] {processor.py:161} INFO - Started process (PID=111) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:07:59.613+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:07:59.617+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:07:59.616+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:07:59.624+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:07:59.622+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:07:59.626+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:07:59.661+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.064 seconds
+[2025-08-25T18:08:29.888+0000] {processor.py:161} INFO - Started process (PID=119) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:08:29.890+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:08:29.896+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:08:29.895+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:08:29.905+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:08:29.902+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:08:29.907+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:08:29.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.066 seconds
+[2025-08-25T18:09:00.171+0000] {processor.py:161} INFO - Started process (PID=127) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:09:00.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:09:00.179+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:09:00.178+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:09:00.187+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:09:00.184+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:09:00.189+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:09:00.232+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.072 seconds
+[2025-08-25T18:11:00.083+0000] {processor.py:161} INFO - Started process (PID=67) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:11:00.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:11:00.095+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:11:00.093+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:11:00.110+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:11:00.107+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:11:00.113+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:11:00.192+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.126 seconds
+[2025-08-25T18:11:30.388+0000] {processor.py:161} INFO - Started process (PID=74) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:11:30.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:11:30.393+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:11:30.392+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:11:30.405+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:11:30.402+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:11:30.407+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:11:30.463+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.087 seconds
+[2025-08-25T18:12:00.696+0000] {processor.py:161} INFO - Started process (PID=82) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:12:00.697+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:12:00.701+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:12:00.700+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:12:00.708+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:12:00.706+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:12:00.709+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:12:00.743+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.058 seconds
+[2025-08-25T18:12:30.964+0000] {processor.py:161} INFO - Started process (PID=90) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:12:30.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:12:30.972+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:12:30.970+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:12:30.983+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:12:30.977+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:12:30.984+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:12:31.024+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.075 seconds
+[2025-08-25T18:13:01.253+0000] {processor.py:161} INFO - Started process (PID=98) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:13:01.254+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:13:01.259+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:13:01.258+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:13:01.268+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:13:01.265+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:13:01.269+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:13:01.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.062 seconds
+[2025-08-25T18:13:14.434+0000] {processor.py:161} INFO - Started process (PID=101) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:13:14.435+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:13:14.440+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:13:14.439+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:13:14.450+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:13:14.446+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:13:14.452+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:13:14.494+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.075 seconds
+[2025-08-25T18:13:44.721+0000] {processor.py:161} INFO - Started process (PID=109) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:13:44.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:13:44.729+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:13:44.727+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:13:44.743+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:13:44.741+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:13:44.745+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:13:44.785+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.080 seconds
+[2025-08-25T18:14:15.026+0000] {processor.py:161} INFO - Started process (PID=117) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:14:15.028+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:14:15.034+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:14:15.033+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:14:15.046+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:14:15.042+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:14:15.047+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:14:15.086+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.073 seconds
+[2025-08-25T18:14:45.332+0000] {processor.py:161} INFO - Started process (PID=125) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:14:45.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:14:45.338+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:14:45.337+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:14:45.363+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:14:45.357+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:14:45.365+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:14:45.529+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.212 seconds
+[2025-08-25T18:15:15.767+0000] {processor.py:161} INFO - Started process (PID=133) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:15:15.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:15:15.778+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:15:15.776+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:15:15.787+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:15:15.785+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:15:15.789+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:15:15.830+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.076 seconds
+[2025-08-25T18:15:46.083+0000] {processor.py:161} INFO - Started process (PID=141) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:15:46.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:15:46.090+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:15:46.089+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:15:46.103+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:15:46.097+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:15:46.105+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:15:46.143+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.077 seconds
+[2025-08-25T18:16:16.439+0000] {processor.py:161} INFO - Started process (PID=149) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:16:16.441+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:16:16.446+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:16:16.445+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:16:16.454+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:16:16.452+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:16:16.455+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:16:16.490+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.066 seconds
+[2025-08-25T18:16:46.717+0000] {processor.py:161} INFO - Started process (PID=157) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:16:46.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:16:46.724+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:16:46.723+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:16:46.742+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:16:46.739+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:16:46.748+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:16:46.807+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.105 seconds
+[2025-08-25T18:17:17.046+0000] {processor.py:161} INFO - Started process (PID=165) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:17:17.048+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:17:17.054+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:17:17.053+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:17:17.070+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:17:17.066+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:17:17.072+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:17:17.179+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.143 seconds
+[2025-08-25T18:17:47.471+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:17:47.473+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:17:47.479+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:17:47.478+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:17:47.489+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:17:47.486+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:17:47.491+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:17:47.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.081 seconds
+[2025-08-25T18:18:17.802+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:18:17.804+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:18:17.809+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:18:17.808+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:18:17.822+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:18:17.819+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:18:17.824+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:18:17.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.080 seconds
+[2025-08-25T18:18:48.251+0000] {processor.py:161} INFO - Started process (PID=189) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:18:48.253+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:18:48.258+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:18:48.257+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:18:48.274+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:18:48.272+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 15
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:18:48.276+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:18:48.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.080 seconds
+[2025-08-25T18:19:01.681+0000] {processor.py:161} INFO - Started process (PID=197) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:19:01.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:19:01.688+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:19:01.687+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:19:01.703+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:19:01.700+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 13
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:19:01.704+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:19:01.812+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.148 seconds
+[2025-08-25T18:19:32.037+0000] {processor.py:161} INFO - Started process (PID=205) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:19:32.039+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:19:32.044+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:19:32.043+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:19:32.053+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:19:32.051+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 13
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:19:32.054+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:19:32.094+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.069 seconds
+[2025-08-25T18:21:00.658+0000] {processor.py:161} INFO - Started process (PID=225) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:21:00.660+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:21:00.662+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:21:00.662+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:21:00.676+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:21:00.673+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 13
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:21:00.679+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:21:00.716+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.070 seconds
+[2025-08-25T18:21:30.950+0000] {processor.py:161} INFO - Started process (PID=233) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:21:30.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:21:30.954+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:21:30.953+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:21:30.967+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:21:30.965+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 13
+    """Извлечение данных из источника"""
+IndentationError: unexpected indent
+[2025-08-25T18:21:30.968+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:21:31.004+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.074 seconds
+[2025-08-25T18:26:00.809+0000] {processor.py:161} INFO - Started process (PID=289) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:26:00.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:26:00.815+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:26:00.814+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:26:00.867+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:26:00.856+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 56, in <module>
+    extract_data_task >> transform_data_task
+    ~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 232, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(PythonOperator): extract_data>, <Task(PythonOperator): transform_data>]
+[2025-08-25T18:26:00.871+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:26:01.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.585 seconds
+[2025-08-25T18:26:31.621+0000] {processor.py:161} INFO - Started process (PID=296) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:26:31.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:26:31.624+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:26:31.624+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:26:31.644+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:26:31.641+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 56, in <module>
+    extract_data_task >> transform_data_task
+    ~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 232, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(PythonOperator): extract_data>, <Task(PythonOperator): transform_data>]
+[2025-08-25T18:26:31.645+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:26:31.676+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.066 seconds
+[2025-08-25T18:26:56.893+0000] {processor.py:161} INFO - Started process (PID=298) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:26:56.896+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:26:56.898+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:26:56.897+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:26:56.923+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:26:56.919+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 69, in <module>
+    extract_data_task >> transform_data_task >> load_data_task
+    ~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 232, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(PythonOperator): extract_data>, <Task(PythonOperator): transform_data>]
+[2025-08-25T18:26:56.924+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:26:56.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.087 seconds
+[2025-08-25T18:27:27.333+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:27:27.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:27:27.338+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:27:27.337+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:27:27.361+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:27:27.357+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 69, in <module>
+    extract_data_task >> transform_data_task >> load_data_task
+    ~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 232, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(PythonOperator): extract_data>, <Task(PythonOperator): transform_data>]
+[2025-08-25T18:27:27.362+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:27:27.394+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.072 seconds
+[2025-08-25T18:27:57.620+0000] {processor.py:161} INFO - Started process (PID=315) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:27:57.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:27:57.624+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:27:57.623+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:27:57.644+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:27:57.640+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 69, in <module>
+    extract_data_task >> transform_data_task >> load_data_task
+    ~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 232, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(PythonOperator): extract_data>, <Task(PythonOperator): transform_data>]
+[2025-08-25T18:27:57.645+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:27:57.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.072 seconds
+[2025-08-25T18:28:27.990+0000] {processor.py:161} INFO - Started process (PID=323) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:28:27.997+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:28:28.010+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:28:28.006+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:28:28.105+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:28:28.093+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 69, in <module>
+    extract_data_task >> transform_data_task >> load_data_task
+    ~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 232, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(PythonOperator): extract_data>, <Task(PythonOperator): transform_data>]
+[2025-08-25T18:28:28.107+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:28:28.215+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.275 seconds
+[2025-08-25T18:28:58.365+0000] {processor.py:161} INFO - Started process (PID=331) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:28:58.367+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:28:58.369+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:28:58.369+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:28:58.388+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:28:58.385+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 69, in <module>
+    extract_data_task >> transform_data_task >> load_data_task
+    ~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 232, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(PythonOperator): extract_data>, <Task(PythonOperator): transform_data>]
+[2025-08-25T18:28:58.389+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:28:58.421+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.067 seconds
+[2025-08-25T18:29:28.711+0000] {processor.py:161} INFO - Started process (PID=339) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:29:28.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:29:28.715+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:29:28.715+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:29:28.734+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:29:28.731+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 69, in <module>
+    extract_data_task >> transform_data_task >> load_data_task
+    ~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 232, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(PythonOperator): extract_data>, <Task(PythonOperator): transform_data>]
+[2025-08-25T18:29:28.735+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:29:28.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.064 seconds
+[2025-08-25T18:29:59.024+0000] {processor.py:161} INFO - Started process (PID=347) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:29:59.026+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:29:59.029+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:29:59.028+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:29:59.065+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:29:59.056+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 69, in <module>
+    extract_data_task >> transform_data_task >> load_data_task
+    ~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 232, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(PythonOperator): extract_data>, <Task(PythonOperator): transform_data>]
+[2025-08-25T18:29:59.068+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:29:59.190+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.185 seconds
+[2025-08-25T18:30:29.344+0000] {processor.py:161} INFO - Started process (PID=362) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:30:29.349+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:30:29.353+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:30:29.352+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:30:29.481+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:30:29.461+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 69, in <module>
+    extract_data_task >> transform_data_task >> load_data_task
+    ~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 232, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(PythonOperator): extract_data>, <Task(PythonOperator): transform_data>]
+[2025-08-25T18:30:29.493+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:30:29.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.359 seconds
+[2025-08-25T18:30:59.812+0000] {processor.py:161} INFO - Started process (PID=372) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:30:59.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:30:59.816+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:30:59.815+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:30:59.840+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:30:59.837+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 69, in <module>
+    extract_data_task >> transform_data_task >> load_data_task
+    ~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 232, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(PythonOperator): extract_data>, <Task(PythonOperator): transform_data>]
+[2025-08-25T18:30:59.842+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:30:59.883+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.087 seconds
+[2025-08-25T18:31:30.154+0000] {processor.py:161} INFO - Started process (PID=380) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:31:30.156+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:31:30.159+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:31:30.158+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:31:30.180+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:31:30.175+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 69, in <module>
+    extract_data_task >> transform_data_task >> load_data_task
+    ~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 232, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(PythonOperator): extract_data>, <Task(PythonOperator): transform_data>]
+[2025-08-25T18:31:30.181+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:31:30.222+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.082 seconds
+[2025-08-25T18:32:00.452+0000] {processor.py:161} INFO - Started process (PID=388) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:32:00.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:32:00.456+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:32:00.455+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:32:00.488+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:32:00.480+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_generated.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_generated.py", line 69, in <module>
+    extract_data_task >> transform_data_task >> load_data_task
+    ~~~~~~~~~~~~~~~~~~^^~~~~~~~~~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 232, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(PythonOperator): extract_data>, <Task(PythonOperator): transform_data>]
+[2025-08-25T18:32:00.491+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:32:00.534+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.094 seconds
+[2025-08-25T18:32:10.672+0000] {processor.py:161} INFO - Started process (PID=389) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:32:10.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:32:10.677+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:32:10.676+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:32:10.719+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:32:11.137+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:32:11.136+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:etl
+[2025-08-25T18:32:11.152+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:32:11.152+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:etl
+[2025-08-25T18:32:11.162+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:32:11.161+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:etl
+[2025-08-25T18:32:11.163+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:32:11.162+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:32:11.185+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:32:11.185+0000] {dag.py:3118} INFO - Creating ORM DAG for etl
+[2025-08-25T18:32:11.214+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:32:11.213+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 17:00:00+00:00, run_after=2025-08-25 18:00:00+00:00
+[2025-08-25T18:32:11.265+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.605 seconds
+[2025-08-25T18:32:41.890+0000] {processor.py:161} INFO - Started process (PID=397) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:32:41.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:32:41.895+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:32:41.894+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:32:41.936+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:32:42.000+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:32:41.999+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:32:42.048+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:32:42.048+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 17:00:00+00:00, run_after=2025-08-25 18:00:00+00:00
+[2025-08-25T18:32:42.085+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.211 seconds
+[2025-08-25T18:33:12.152+0000] {processor.py:161} INFO - Started process (PID=405) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:33:12.154+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:33:12.156+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:33:12.155+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:33:12.187+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:33:12.290+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:33:12.290+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:33:12.342+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:33:12.341+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 17:00:00+00:00, run_after=2025-08-25 18:00:00+00:00
+[2025-08-25T18:33:12.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.750 seconds
+[2025-08-25T18:33:37.595+0000] {processor.py:161} INFO - Started process (PID=414) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:33:37.600+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:33:37.607+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:33:37.606+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:33:37.697+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:33:37.792+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:33:37.792+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:33:37.889+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:33:37.888+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 17:00:00+00:00, run_after=2025-08-25 18:00:00+00:00
+[2025-08-25T18:33:38.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.585 seconds
+[2025-08-25T18:34:08.355+0000] {processor.py:161} INFO - Started process (PID=422) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:34:08.357+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:34:08.360+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:34:08.359+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:34:08.395+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:34:08.455+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:34:08.455+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:34:08.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.205 seconds
+[2025-08-25T18:34:38.605+0000] {processor.py:161} INFO - Started process (PID=430) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:34:38.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:34:38.610+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:34:38.610+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:34:38.647+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:34:38.698+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:34:38.697+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:34:38.754+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:34:38.753+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:34:38.793+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.204 seconds
+[2025-08-25T18:35:08.973+0000] {processor.py:161} INFO - Started process (PID=438) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:35:08.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:35:08.979+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:35:08.978+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:35:09.011+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:35:09.064+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:35:09.064+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:35:09.131+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:35:09.131+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:35:09.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.221 seconds
+[2025-08-25T18:35:39.440+0000] {processor.py:161} INFO - Started process (PID=446) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:35:39.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:35:39.445+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:35:39.444+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:35:39.483+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:35:39.561+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:35:39.560+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:35:39.631+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:35:39.630+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:35:39.674+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.250 seconds
+[2025-08-25T18:36:09.918+0000] {processor.py:161} INFO - Started process (PID=454) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:36:09.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:36:09.923+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:36:09.922+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:36:09.953+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:36:10.013+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:36:10.012+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:36:10.071+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:36:10.070+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:36:10.112+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.208 seconds
+[2025-08-25T18:36:40.353+0000] {processor.py:161} INFO - Started process (PID=462) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:36:40.355+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:36:40.357+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:36:40.356+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:36:40.386+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:36:40.445+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:36:40.444+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:36:40.499+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:36:40.498+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:36:40.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.196 seconds
+[2025-08-25T18:37:10.760+0000] {processor.py:161} INFO - Started process (PID=470) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:37:10.762+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:37:10.765+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:37:10.764+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:37:10.795+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:37:10.870+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:37:10.870+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:37:10.917+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:37:10.916+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:37:10.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.204 seconds
+[2025-08-25T18:37:41.163+0000] {processor.py:161} INFO - Started process (PID=478) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:37:41.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:37:41.169+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:37:41.168+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:37:41.202+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:37:41.263+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:37:41.262+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:37:41.328+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:37:41.327+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:37:41.369+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.222 seconds
+[2025-08-25T18:38:11.594+0000] {processor.py:161} INFO - Started process (PID=486) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:38:11.596+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:38:11.598+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:38:11.597+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:38:11.635+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:38:11.691+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:38:11.690+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:38:11.738+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:38:11.737+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:38:11.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.194 seconds
+[2025-08-25T18:38:42.017+0000] {processor.py:161} INFO - Started process (PID=494) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:38:42.019+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:38:42.021+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:38:42.020+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:38:42.054+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:38:42.109+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:38:42.108+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:38:42.156+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:38:42.156+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:38:42.190+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.189 seconds
+[2025-08-25T18:39:12.394+0000] {processor.py:161} INFO - Started process (PID=502) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:39:12.396+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:39:12.398+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:39:12.397+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:39:12.426+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:39:12.497+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:39:12.496+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:39:12.553+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:39:12.552+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:39:12.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.203 seconds
+[2025-08-25T18:39:42.810+0000] {processor.py:161} INFO - Started process (PID=510) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:39:42.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:39:42.815+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:39:42.814+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:39:42.854+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:39:42.909+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:39:42.908+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:39:42.967+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:39:42.966+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:39:43.003+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.207 seconds
+[2025-08-25T18:40:13.211+0000] {processor.py:161} INFO - Started process (PID=518) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:40:13.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:40:13.216+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:40:13.215+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:40:13.253+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:40:13.307+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:40:13.306+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:40:13.355+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:40:13.354+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:40:13.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.187 seconds
+[2025-08-25T18:40:43.609+0000] {processor.py:161} INFO - Started process (PID=526) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:40:43.611+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:40:43.614+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:40:43.613+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:40:43.649+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:40:43.701+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:40:43.701+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:40:43.755+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:40:43.755+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:40:43.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.196 seconds
+[2025-08-25T18:41:14.060+0000] {processor.py:161} INFO - Started process (PID=534) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:41:14.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:41:14.064+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:41:14.063+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:41:14.095+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:41:14.147+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:41:14.147+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:41:14.192+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:41:14.192+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:41:14.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.180 seconds
+[2025-08-25T18:41:44.509+0000] {processor.py:161} INFO - Started process (PID=541) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:41:44.513+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:41:44.521+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:41:44.516+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:41:44.584+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:41:44.652+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:41:44.652+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:41:44.721+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:41:44.721+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:41:44.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.289 seconds
+[2025-08-25T18:42:15.004+0000] {processor.py:161} INFO - Started process (PID=549) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:42:15.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:42:15.008+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:42:15.007+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:42:15.041+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:42:15.100+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:42:15.099+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:42:15.159+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:42:15.158+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:42:15.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.203 seconds
+[2025-08-25T18:42:45.422+0000] {processor.py:161} INFO - Started process (PID=557) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:42:45.423+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:42:45.426+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:42:45.425+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:42:45.452+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:42:45.511+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:42:45.511+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:42:45.576+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:42:45.575+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:42:45.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.205 seconds
+[2025-08-25T18:43:15.828+0000] {processor.py:161} INFO - Started process (PID=565) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:43:15.830+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:43:15.832+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:43:15.831+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:43:15.861+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:43:15.919+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:43:15.919+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:43:15.974+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:43:15.974+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:43:16.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.196 seconds
+[2025-08-25T18:43:46.240+0000] {processor.py:161} INFO - Started process (PID=573) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:43:46.242+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:43:46.245+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:43:46.244+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:43:46.284+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:43:46.338+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:43:46.338+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:43:46.386+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:43:46.386+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:43:46.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.194 seconds
+[2025-08-25T18:44:16.645+0000] {processor.py:161} INFO - Started process (PID=581) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:44:16.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:44:16.648+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:44:16.647+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:44:16.674+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:44:16.732+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:44:16.731+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:44:16.777+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:44:16.776+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:44:16.812+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.181 seconds
+[2025-08-25T18:44:47.044+0000] {processor.py:161} INFO - Started process (PID=589) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:44:47.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:44:47.048+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:44:47.047+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:44:47.074+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:44:47.131+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:44:47.130+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:44:47.177+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:44:47.177+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:44:47.208+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.177 seconds
+[2025-08-25T18:45:17.264+0000] {processor.py:161} INFO - Started process (PID=597) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:45:17.266+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:45:17.268+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:45:17.267+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:45:17.302+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:45:17.364+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:45:17.364+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:45:17.413+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:45:17.412+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:45:17.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.200 seconds
+[2025-08-25T18:45:47.688+0000] {processor.py:161} INFO - Started process (PID=605) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:45:47.691+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:45:47.694+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:45:47.693+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:45:47.736+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:45:47.804+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:45:47.803+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:45:47.857+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:45:47.857+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:45:47.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.221 seconds
+[2025-08-25T18:46:18.146+0000] {processor.py:161} INFO - Started process (PID=613) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:46:18.148+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:46:18.151+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:46:18.150+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:46:18.188+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:46:18.253+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:46:18.252+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:46:18.308+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:46:18.308+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:46:18.343+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.211 seconds
+[2025-08-25T18:46:48.549+0000] {processor.py:161} INFO - Started process (PID=621) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:46:48.551+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:46:48.553+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:46:48.552+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:46:48.587+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:46:48.643+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:46:48.642+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:46:48.690+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:46:48.690+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:46:48.724+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.188 seconds
+[2025-08-25T18:47:18.960+0000] {processor.py:161} INFO - Started process (PID=629) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:47:18.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:47:18.963+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:47:18.963+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:47:18.998+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:47:19.051+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:47:19.050+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:47:19.103+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:47:19.103+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:47:19.144+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.195 seconds
+[2025-08-25T18:47:49.398+0000] {processor.py:161} INFO - Started process (PID=637) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:47:49.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:47:49.405+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:47:49.403+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:47:49.442+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:47:49.529+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:47:49.528+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:47:49.592+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:47:49.591+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:47:49.633+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.249 seconds
+[2025-08-25T18:48:19.874+0000] {processor.py:161} INFO - Started process (PID=645) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:48:19.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:48:19.880+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:48:19.879+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:48:19.906+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:48:19.963+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:48:19.962+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:48:20.015+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:48:20.015+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:48:20.051+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.190 seconds
+[2025-08-25T18:48:50.292+0000] {processor.py:161} INFO - Started process (PID=653) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:48:50.294+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:48:50.297+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:48:50.296+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:48:50.327+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:48:50.382+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:48:50.382+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:48:50.429+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:48:50.429+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:48:50.463+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.185 seconds
+[2025-08-25T18:49:20.732+0000] {processor.py:161} INFO - Started process (PID=661) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:49:20.734+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:49:20.737+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:49:20.736+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:49:20.775+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:49:20.829+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:49:20.829+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:49:20.875+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:49:20.875+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:49:20.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.202 seconds
+[2025-08-25T18:49:51.135+0000] {processor.py:161} INFO - Started process (PID=669) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:49:51.137+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:49:51.139+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:49:51.138+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:49:51.180+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:49:51.240+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:49:51.239+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:49:51.290+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:49:51.289+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:49:51.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.201 seconds
+[2025-08-25T18:50:21.569+0000] {processor.py:161} INFO - Started process (PID=677) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:50:21.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:50:21.573+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:50:21.572+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:50:21.601+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:50:21.668+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:50:21.668+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:50:21.725+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:50:21.724+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:50:21.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.209 seconds
+[2025-08-25T18:50:52.002+0000] {processor.py:161} INFO - Started process (PID=685) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:50:52.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:50:52.007+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:50:52.006+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:50:52.049+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:50:52.103+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:50:52.102+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:50:52.153+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:50:52.153+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:50:52.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.209 seconds
+[2025-08-25T18:51:22.411+0000] {processor.py:161} INFO - Started process (PID=693) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:51:22.413+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:51:22.415+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:51:22.414+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:51:22.449+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:51:22.503+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:51:22.502+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:51:22.552+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:51:22.552+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:51:22.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.187 seconds
+[2025-08-25T18:51:52.816+0000] {processor.py:161} INFO - Started process (PID=701) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:51:52.819+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:51:52.821+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:51:52.820+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:51:52.851+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:51:52.903+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:51:52.902+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:51:52.961+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:51:52.960+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:51:52.995+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.193 seconds
+[2025-08-25T18:52:23.248+0000] {processor.py:161} INFO - Started process (PID=709) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:52:23.250+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:52:23.255+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:52:23.254+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:52:23.283+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:52:23.338+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:52:23.337+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:52:23.385+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:52:23.385+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:52:23.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.193 seconds
+[2025-08-25T18:52:53.640+0000] {processor.py:161} INFO - Started process (PID=717) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:52:53.642+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:52:53.645+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:52:53.644+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:52:53.678+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:52:53.736+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:52:53.736+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:52:53.790+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:52:53.789+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:52:53.824+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.197 seconds
+[2025-08-25T18:53:24.054+0000] {processor.py:161} INFO - Started process (PID=725) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:53:24.056+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:53:24.058+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:53:24.058+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:53:24.085+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:53:24.145+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:53:24.144+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:53:24.196+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:53:24.196+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:53:24.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.203 seconds
+[2025-08-25T18:53:54.454+0000] {processor.py:161} INFO - Started process (PID=733) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:53:54.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:53:54.458+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:53:54.457+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:53:54.495+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:53:54.554+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:53:54.553+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:53:54.602+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:53:54.602+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:53:54.641+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.203 seconds
+[2025-08-25T18:54:24.881+0000] {processor.py:161} INFO - Started process (PID=741) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:54:24.883+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:54:24.885+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:54:24.884+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:54:24.911+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:54:24.974+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:54:24.973+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:54:25.029+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:54:25.029+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:54:25.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.205 seconds
+[2025-08-25T18:54:55.283+0000] {processor.py:161} INFO - Started process (PID=749) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:54:55.286+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:54:55.288+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:54:55.288+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:54:55.317+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:54:55.389+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:54:55.388+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:54:55.448+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:54:55.448+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:54:55.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.219 seconds
+[2025-08-25T18:55:25.725+0000] {processor.py:161} INFO - Started process (PID=757) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:55:25.727+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:55:25.730+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:55:25.729+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:55:25.767+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:55:25.821+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:55:25.820+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:55:25.873+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:55:25.873+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:55:25.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.195 seconds
+[2025-08-25T18:55:56.139+0000] {processor.py:161} INFO - Started process (PID=765) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:55:56.141+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:55:56.144+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:55:56.143+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:55:56.180+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:55:56.234+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:55:56.233+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:55:56.285+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:55:56.284+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:55:56.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.198 seconds
+[2025-08-25T18:56:26.561+0000] {processor.py:161} INFO - Started process (PID=773) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:56:26.563+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:56:26.565+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:56:26.564+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:56:26.597+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:56:26.653+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:56:26.653+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:56:26.703+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:56:26.703+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:56:26.739+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.191 seconds
+[2025-08-25T18:56:56.805+0000] {processor.py:161} INFO - Started process (PID=781) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:56:56.807+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:56:56.809+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:56:56.809+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:56:56.839+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:56:56.896+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:56:56.895+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:56:56.946+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:56:56.946+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:56:56.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.188 seconds
+[2025-08-25T18:57:27.202+0000] {processor.py:161} INFO - Started process (PID=789) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:57:27.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:57:27.206+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:57:27.206+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:57:27.241+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:57:27.300+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:57:27.299+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:57:27.360+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:57:27.359+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:57:27.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.204 seconds
+[2025-08-25T18:57:57.657+0000] {processor.py:161} INFO - Started process (PID=797) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:57:57.659+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:57:57.661+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:57:57.661+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:57:57.693+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:57:57.745+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:57:57.745+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:57:57.799+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:57:57.799+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:57:57.838+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.195 seconds
+[2025-08-25T18:58:28.063+0000] {processor.py:161} INFO - Started process (PID=805) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:58:28.066+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:58:28.069+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:58:28.068+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:58:28.098+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:58:28.154+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:58:28.154+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:58:28.208+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:58:28.208+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:58:28.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.200 seconds
+[2025-08-25T18:58:58.488+0000] {processor.py:161} INFO - Started process (PID=812) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:58:58.489+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:58:58.492+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:58:58.491+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:58:58.518+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:58:58.572+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:58:58.572+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:58:58.619+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:58:58.619+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:58:58.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.181 seconds
+[2025-08-25T18:59:28.990+0000] {processor.py:161} INFO - Started process (PID=820) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:59:28.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:59:28.995+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:59:28.994+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:59:29.022+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:59:29.074+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:59:29.074+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:59:29.125+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:59:29.124+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:59:29.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.183 seconds
+[2025-08-25T18:59:59.399+0000] {processor.py:161} INFO - Started process (PID=828) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:59:59.402+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T18:59:59.405+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:59:59.404+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:59:59.449+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T18:59:59.529+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:59:59.529+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T18:59:59.603+0000] {logging_mixin.py:188} INFO - [2025-08-25T18:59:59.602+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 18:00:00+00:00, run_after=2025-08-25 19:00:00+00:00
+[2025-08-25T18:59:59.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.277 seconds
+[2025-08-25T19:00:29.902+0000] {processor.py:161} INFO - Started process (PID=834) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:00:29.904+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:00:29.907+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:00:29.905+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:00:29.943+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:00:30.003+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:00:30.003+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:00:30.053+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:00:30.053+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:00:30.085+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.194 seconds
+[2025-08-25T19:01:00.318+0000] {processor.py:161} INFO - Started process (PID=843) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:01:00.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:01:00.326+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:01:00.325+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:01:00.356+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:01:00.417+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:01:00.416+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:01:00.465+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:01:00.464+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:01:00.495+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.194 seconds
+[2025-08-25T19:01:30.740+0000] {processor.py:161} INFO - Started process (PID=851) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:01:30.742+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:01:30.745+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:01:30.744+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:01:30.772+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:01:30.846+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:01:30.846+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:01:30.903+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:01:30.903+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:01:30.936+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.208 seconds
+[2025-08-25T19:02:01.182+0000] {processor.py:161} INFO - Started process (PID=859) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:02:01.184+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:02:01.187+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:02:01.186+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:02:01.214+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:02:01.280+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:02:01.280+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:02:01.338+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:02:01.338+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:02:01.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.206 seconds
+[2025-08-25T19:02:31.631+0000] {processor.py:161} INFO - Started process (PID=867) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:02:31.634+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:02:31.637+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:02:31.636+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:02:31.675+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:02:31.742+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:02:31.742+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:02:31.806+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:02:31.805+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:02:31.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.242 seconds
+[2025-08-25T19:03:02.091+0000] {processor.py:161} INFO - Started process (PID=875) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:03:02.094+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:03:02.097+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:03:02.096+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:03:02.135+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:03:02.195+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:03:02.194+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:03:02.243+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:03:02.243+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:03:02.280+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.208 seconds
+[2025-08-25T19:03:32.523+0000] {processor.py:161} INFO - Started process (PID=883) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:03:32.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:03:32.528+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:03:32.527+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:03:32.567+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:03:32.624+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:03:32.623+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:03:32.678+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:03:32.677+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:03:32.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.221 seconds
+[2025-08-25T19:04:02.967+0000] {processor.py:161} INFO - Started process (PID=891) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:04:02.968+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:04:02.970+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:04:02.970+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:04:02.998+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:04:03.052+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:04:03.052+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:04:03.104+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:04:03.103+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:04:03.137+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.184 seconds
+[2025-08-25T19:04:33.375+0000] {processor.py:161} INFO - Started process (PID=899) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:04:33.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:04:33.381+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:04:33.380+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:04:33.412+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:04:33.468+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:04:33.468+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:04:33.518+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:04:33.517+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:04:33.554+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.191 seconds
+[2025-08-25T19:05:03.797+0000] {processor.py:161} INFO - Started process (PID=907) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:05:03.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:05:03.801+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:05:03.800+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:05:03.833+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:05:03.889+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:05:03.888+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:05:03.946+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:05:03.945+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:05:03.982+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.198 seconds
+[2025-08-25T19:05:34.212+0000] {processor.py:161} INFO - Started process (PID=915) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:05:34.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:05:34.216+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:05:34.215+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:05:34.243+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:05:34.303+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:05:34.303+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:05:34.348+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:05:34.348+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:05:34.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.184 seconds
+[2025-08-25T19:06:04.652+0000] {processor.py:161} INFO - Started process (PID=923) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:06:04.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:06:04.658+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:06:04.657+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:06:04.685+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:06:04.740+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:06:04.740+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:06:04.792+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:06:04.792+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:06:04.825+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.193 seconds
+[2025-08-25T19:06:35.045+0000] {processor.py:161} INFO - Started process (PID=931) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:06:35.047+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:06:35.050+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:06:35.049+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:06:35.084+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:06:35.137+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:06:35.137+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:06:35.185+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:06:35.185+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:06:35.225+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.190 seconds
+[2025-08-25T19:07:05.436+0000] {processor.py:161} INFO - Started process (PID=939) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:07:05.438+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:07:05.442+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:07:05.441+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:07:05.484+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:07:05.546+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:07:05.546+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:07:05.602+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:07:05.602+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:07:05.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.215 seconds
+[2025-08-25T19:07:35.860+0000] {processor.py:161} INFO - Started process (PID=947) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:07:35.862+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:07:35.865+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:07:35.864+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:07:35.891+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:07:35.944+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:07:35.944+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:07:35.989+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:07:35.989+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:07:36.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.178 seconds
+[2025-08-25T19:08:06.079+0000] {processor.py:161} INFO - Started process (PID=955) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:08:06.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:08:06.084+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:08:06.083+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:08:06.114+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:08:06.170+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:08:06.169+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:08:06.215+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:08:06.214+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:08:06.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.188 seconds
+[2025-08-25T19:08:36.482+0000] {processor.py:161} INFO - Started process (PID=963) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:08:36.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:08:36.486+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:08:36.486+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:08:36.513+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:08:36.564+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:08:36.563+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:08:36.615+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:08:36.615+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:08:36.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.182 seconds
+[2025-08-25T19:09:06.886+0000] {processor.py:161} INFO - Started process (PID=971) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:09:06.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:09:06.890+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:09:06.889+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:09:06.925+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:09:06.981+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:09:06.980+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:09:07.035+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:09:07.035+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:09:07.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.200 seconds
+[2025-08-25T19:09:37.309+0000] {processor.py:161} INFO - Started process (PID=979) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:09:37.311+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:09:37.315+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:09:37.314+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:09:37.350+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:09:37.405+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:09:37.404+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:09:37.460+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:09:37.459+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:09:37.495+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.201 seconds
+[2025-08-25T19:10:07.988+0000] {processor.py:161} INFO - Started process (PID=987) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:10:07.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:10:07.992+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:10:07.992+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:10:08.024+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:10:08.084+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:10:08.084+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:10:08.130+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:10:08.130+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:10:08.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.195 seconds
+[2025-08-25T19:10:38.400+0000] {processor.py:161} INFO - Started process (PID=1001) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:10:38.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:10:38.407+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:10:38.405+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:10:38.444+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:10:38.504+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:10:38.504+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:10:38.552+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:10:38.551+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:10:38.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.199 seconds
+[2025-08-25T19:11:08.874+0000] {processor.py:161} INFO - Started process (PID=1009) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:11:08.875+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:11:08.878+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:11:08.877+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:11:08.910+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:11:08.986+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:11:08.985+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:11:09.055+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:11:09.055+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:11:09.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.229 seconds
+[2025-08-25T19:11:39.313+0000] {processor.py:161} INFO - Started process (PID=1017) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:11:39.317+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:11:39.320+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:11:39.319+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:11:39.369+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:11:39.441+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:11:39.441+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:11:39.508+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:11:39.508+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:11:39.559+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.262 seconds
+[2025-08-25T19:12:09.786+0000] {processor.py:161} INFO - Started process (PID=1025) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:12:09.789+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:12:09.795+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:12:09.793+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:12:09.839+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:12:09.918+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:12:09.918+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:12:09.973+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:12:09.973+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:12:10.006+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.238 seconds
+[2025-08-25T19:12:40.326+0000] {processor.py:161} INFO - Started process (PID=1033) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:12:40.330+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:12:40.333+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:12:40.332+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:12:40.370+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:12:40.432+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:12:40.432+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:12:40.483+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:12:40.483+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:12:40.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.241 seconds
+[2025-08-25T19:13:10.761+0000] {processor.py:161} INFO - Started process (PID=1041) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:13:10.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:13:10.766+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:13:10.765+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:13:10.801+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:13:10.858+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:13:10.857+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:13:10.911+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:13:10.910+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:13:10.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.205 seconds
+[2025-08-25T19:13:41.186+0000] {processor.py:161} INFO - Started process (PID=1049) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:13:41.187+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:13:41.189+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:13:41.188+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:13:41.212+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:13:41.267+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:13:41.267+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:13:41.327+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:13:41.326+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:13:41.360+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.186 seconds
+[2025-08-25T19:14:11.579+0000] {processor.py:161} INFO - Started process (PID=1057) to work on /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:14:11.581+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_generated.py for tasks to queue
+[2025-08-25T19:14:11.583+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:14:11.582+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:14:11.613+0000] {processor.py:840} INFO - DAG(s) 'etl' retrieved from /opt/airflow/dags/etl_generated.py
+[2025-08-25T19:14:11.682+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:14:11.682+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-25T19:14:11.743+0000] {logging_mixin.py:188} INFO - [2025-08-25T19:14:11.743+0000] {dag.py:3954} INFO - Setting next_dagrun for etl to 2025-08-25 19:00:00+00:00, run_after=2025-08-25 20:00:00+00:00
+[2025-08-25T19:14:11.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_generated.py took 0.212 seconds
