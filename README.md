@@ -35,18 +35,7 @@ airflow_dag_generator/
 
 ## Установка и запуск
 
-### 1. Клонирование репозитория
-```bash
-git clone <repository-url>
-cd airflow_dag_generator
-```
-
-### 2. Сборка Docker образа
-```bash
-docker build -t airflow-with-java .
-```
-
-### 3. Создание исходных файлов
+### 1. Создание исходных файлов
 
 #### Python скрипт (sources/python/example.py):
 ```python
@@ -85,12 +74,12 @@ CREATE TABLE IF NOT EXISTS orders (
 );
 ```
 
-### 4. Генерация DAG
+### 2. Генерация DAG
 ```bash
 python generate_dags.py
 ```
 
-### 5. Запуск Airflow
+### 3. Запуск Airflow
 ```bash
 docker-compose up --build
 ```
