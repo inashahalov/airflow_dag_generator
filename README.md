@@ -1,8 +1,8 @@
-# Генератор DAG для Apache Airflow
+# Airflow DAG Generator
 
 ## Описание проекта
 
-Проект представляет собой автоматический генератор DAG (Directed Acyclic Graph) для Apache Airflow, который создает рабочие графы на основе исходных Python и SQL скриптов. 
+Автоматический генератор DAG-файлов для Apache Airflow на основе Python и SQL скриптов. Решает проблему рутинного создания DAG-файлов для аналитических скриптов.
 
 ### Особенности:
 - **Поддержка Python и SQL**: Генерирует DAG из обоих типов скриптов
@@ -153,6 +153,51 @@ CREATE INDEX idx_users ON users(id);
 - Docker и Docker Compose
 - Python 3.8+
 - Apache Airflow 2.9.2
+
+## Скриншоты работы программы
+
+### 1. Структура проекта
+![Структура проекта](docs/screenshots/project_structure.png)
+
+### 2. Исходный Python файл
+![Python скрипт](docs/screenshots/python_source.png)
+
+### 3. Сгенерированный Python DAG
+![Сгенерированный Python DAG](docs/screenshots/generated_python_dag.png)
+
+### 4. Исходный SQL файл
+![SQL скрипт](docs/screenshots/sql_source.png)
+
+### 5. Сгенерированный SQL DAG
+![Сгенерированный SQL DAG](docs/screenshots/generated_sql_dag.png)
+
+### 6. DAG в Airflow UI
+![DAG в интерфейсе](docs/screenshots/airflow_ui_dag.png)
+
+### 7. Граф представление DAG
+![Граф DAG](docs/screenshots/dag_graph.png)
+
+### 8. Логи выполнения задач
+![Логи задач](docs/screenshots/task_logs.png)
+
+### 9. Запуск генератора
+![Запуск генератора](docs/screenshots/generator_run.png)
+
+### 10. Docker Compose запуск
+![Docker Compose](docs/screenshots/docker_compose.png)
+
+## Архитектура решения
+
+### Общая схема:
+```
+Исходники → Парсер → Шаблонизатор → DAG-файлы
+```
+
+### Компоненты:
+1. **Парсер исходных файлов**: Анализирует Python и SQL скрипты
+2. **Генератор DAG**: Создает DAG-файлы на основе шаблонов
+3. **Шаблонизатор**: Использует Jinja2 для генерации кода
+4. **Конфигуратор**: Извлекает параметры из исходных файлов
 
 
 
