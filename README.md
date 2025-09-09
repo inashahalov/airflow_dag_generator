@@ -157,12 +157,14 @@ CREATE INDEX idx_users ON users(id);
 ## Скриншоты работы программы
 
 ### 1. Структура проекта
-![Структура проекта](docs/screenshots/project_structure.png)
+<img width="472" height="650" alt="image" src="https://github.com/user-attachments/assets/214e0fa8-2e99-494b-a70c-583290ef2874" />
 
 ### 2. Исходный Python файл
-![Python скрипт](docs/screenshots/python_source.png)
+<img width="591" height="485" alt="image" src="https://github.com/user-attachments/assets/ff15f96c-f458-4f48-90aa-1d9a8176de73" />
 
 ### 3. Сгенерированный Python DAG
+<img width="610" height="687" alt="image" src="https://github.com/user-attachments/assets/6e642a3a-e963-4e10-bda7-78f78458bb99" />
+
 ![Сгенерированный Python DAG](docs/screenshots/generated_python_dag.png)
 
 ### 4. Исходный SQL файл
