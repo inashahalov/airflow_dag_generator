@@ -174,8 +174,6 @@ etl_generated.py
 
 
 
-![Сгенерированный Python DAG](docs/screenshots/generated_python_dag.png)
-
 ### 4. Исходный SQL файл
 ![SQL скрипт](docs/screenshots/sql_source.png)
 
