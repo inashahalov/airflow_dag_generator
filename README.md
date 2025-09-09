@@ -163,6 +163,7 @@ CREATE INDEX idx_users ON users(id);
 <img width="591" height="485" alt="image" src="https://github.com/user-attachments/assets/ff15f96c-f458-4f48-90aa-1d9a8176de73" />
 
 ### 3. Сгенерированный Python DAG
+ddl_generated.py
 <img width="610" height="687" alt="image" src="https://github.com/user-attachments/assets/6e642a3a-e963-4e10-bda7-78f78458bb99" />
 
 ![Сгенерированный Python DAG](docs/screenshots/generated_python_dag.png)
