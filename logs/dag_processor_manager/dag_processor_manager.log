@@ -2994,3 +2994,53 @@ File Path                           PID    Runtime      # DAGs    # Errors  Last
 /opt/airflow/dags/ddl_generated.py                           1           0  0.26s           2025-08-26T07:56:44
 /opt/airflow/dags/etl_generated.py                           1           0  0.25s           2025-08-26T07:56:44
 ================================================================================
+[2025-09-11T19:29:17.674+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-09-11T19:29:17.675+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-09-11T19:29:17.676+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-09-11T19:29:17.683+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-09-11T19:29:17.689+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2025-09-11T19:29:17.914+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/etl.py     55  0.10s             0           0
+/opt/airflow/dags/ddl.py     54  0.13s             0           0
+================================================================================
+[2025-09-11T19:29:48.646+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ddl.py     68  0.02s             1           0  0.61s           2025-09-11T19:29:18
+/opt/airflow/dags/etl.py     69  0.00s             1           0  0.57s           2025-09-11T19:29:18
+================================================================================
+[2025-09-11T19:30:18.883+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ddl.py     76  0.02s             1           0  0.21s           2025-09-11T19:29:48
+/opt/airflow/dags/etl.py     77  0.01s             1           0  0.20s           2025-09-11T19:29:48
+================================================================================
+[2025-09-11T19:30:49.388+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl.py     85  0.01s             1           0  0.31s           2025-09-11T19:30:19
+/opt/airflow/dags/ddl.py     84  0.02s             1           0  0.27s           2025-09-11T19:30:19
+================================================================================
+[2025-09-11T19:31:19.594+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ddl.py                           1           0  0.24s           2025-09-11T19:30:49
+/opt/airflow/dags/etl.py                           1           0  0.23s           2025-09-11T19:30:49
+================================================================================
