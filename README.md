@@ -70,7 +70,7 @@
    mkdir -p scripts/sql scripts/python data templates dags reports
    ```
 
-3. ## Использование
+## Использование
 
 1. **Добавьте свои скрипты** в папки `sources/python/` или `sources/sql/`
 2. **Запустите генератор**:
