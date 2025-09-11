@@ -76,10 +76,10 @@ with DAG(
     extract_data_task >> transform_data_task >> load_data_task
 '''
 
-    with open('dags/etl_generated.py', 'w', encoding='utf-8') as f:
+    with open('dags/etl.py', 'w', encoding='utf-8') as f:
         f.write(dag_content)
 
-    print("Создан DAG: etl_generated.py")
+    print("Создан DAG: etl.py")
 
 
 def create_ddl_dag():
@@ -134,10 +134,10 @@ with DAG(
     statement_1_ddl >> statement_2_ddl >> statement_3_ddl
 '''
 
-    with open('dags/ddl_generated.py', 'w', encoding='utf-8') as f:
+    with open('dags/ddl.py', 'w', encoding='utf-8') as f:
         f.write(dag_content)
 
-    print("Создан DAG: ddl_generated.py")
+    print("Создан DAG: ddl.py")
 
 
 def main():

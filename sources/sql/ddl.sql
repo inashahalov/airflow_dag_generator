@@ -1,22 +1,55 @@
 -- CONFIG: {"schedule_interval": "@daily", "tags": ["ddl", "database"]}
 
--- Создание таблицы пользователей
-CREATE TABLE IF NOT EXISTS users (
-    id SERIAL PRIMARY KEY,
-    username VARCHAR(50) UNIQUE NOT NULL,
-    email VARCHAR(100) UNIQUE NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+-- 1. Создание таблицы staff
+CREATE TABLE staff(
+    Id int NOT NULL,
+    "Подразделение" varchar(50) NULL,
+    "Должность" varchar(255) NULL,
+    "Штат" int NULL,
+    "Тариф" int NULL
 );
 
--- Создание таблицы заказов
-CREATE TABLE IF NOT EXISTS orders (
-    id SERIAL PRIMARY KEY,
-    user_id INTEGER REFERENCES users(id),
-    amount DECIMAL(10,2) NOT NULL,
-    status VARCHAR(20) DEFAULT 'pending',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+-- 2. Заполнение таблицы первоначальными данными
+INSERT INTO staff (id, "Подразделение", "Должность", "Штат", "Тариф") VALUES
+(1, 'Администрация', 'Генеральный директор', 1, 2000000),
+(2, NULL, 'Секретарь', 1, 50000),
+(3, 'Бухгалтерия', 'Главный бухгалтер', 1, 80000),
+(4, NULL, 'Бухгалтер', 1, 40000),
+(5, 'Отдел производства', 'Начальник производства', 1, 120000),
+(6, NULL, 'Корректор', 1, 50000),
+(7, NULL, 'Графический дизайнер', 2, 80000),
+(8, NULL, 'Программист', 2, 80000);
 
--- Создание индекса для ускорения поиска
-CREATE INDEX IF NOT EXISTS idx_users_email ON users(email);
+-- Просмотр данных
+SELECT * FROM staff;
+
+-- 3. Заменить значения в выделенных ячейках (1 вариант - правильный)
+UPDATE staff
+SET "Должность" = 'Бухгалтер-кассир'
+WHERE "Должность" = 'Бухгалтер';
+
+UPDATE staff
+SET "Подразделение" = CASE
+    WHEN "Должность" = 'Секретарь' THEN 'Администрация'
+    WHEN "Должность" = 'Бухгалтер-кассир' THEN 'Бухгалтерия'
+    WHEN "Должность" = 'Корректор' THEN 'Отдел производства'
+    WHEN "Должность" = 'Графический дизайнер' THEN 'Отдел производства'
+    WHEN "Должность" = 'Программист' THEN 'Отдел производства'
+    ELSE "Подразделение"
+END;
+
+-- Просмотр обновленных данных
+SELECT * FROM staff;
+
+-- 4. Удаление строки с должностью "Программист"
+DELETE FROM staff
+WHERE "Должность" = 'Программист';
+
+-- Или если нужно удалить по другому условию (как в вашем примере):
+-- DELETE FROM staff WHERE birthday IS NULL OR phone IS NULL;
+-- Но в вашей таблице нет полей birthday и phone, поэтому используем:
+DELETE FROM staff
+WHERE "Должность" = 'Программист';
+
+-- Финальный просмотр
+SELECT * FROM staff;
