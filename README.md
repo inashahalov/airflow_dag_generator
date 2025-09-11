@@ -66,7 +66,9 @@
 2. **Клонируйте репозиторий**
    ```bash
    git clone https://github.com/inashahalov/airflow_dag_generator.git
+   
    cd airflow_dag_generator/airflow
+   
    mkdir -p scripts/sql scripts/python data templates dags reports
    ```
 
@@ -84,17 +86,19 @@
 4. **Откройте интерфейс** по адресу `http://localhost:8080`
 5. **Войдите** с логином и паролем `airflow`
 6. 
-   Перейдите в Admin → Connections
-Нажмите кнопку "+" (Add record)
-Заполните поля:
-Connection Id: postgres_default
-Connection Type: Postgres
-Host: postgres (имя сервиса из docker-compose)
-Schema: airflow (или оставьте пустым)
-Login: airflow
-Password: airflow
-Port: 5432
-Нажмите Save
+      Перейдите в Admin → Connections
+      Нажмите кнопку "+" (Add record)
+      Заполните поля:
+      Connection Id: postgres_default
+      Connection Type: Postgres
+      Host: postgres (имя сервиса из docker-compose)
+      Schema: airflow (или оставьте пустым)
+      Login: airflow
+      Password: airflow
+      Port: 5432
+      Нажмите Save
+   <img width="1795" height="356" alt="image" src="https://github.com/user-attachments/assets/d27a9874-25e1-4f16-8ff4-990ca4d55826" />
+
 
     После настройки подключения вы можете проверить его в Airflow CLI:
 ```bash
