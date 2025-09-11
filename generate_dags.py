@@ -50,7 +50,7 @@ def load_data(**kwargs):
 
 with DAG(
     dag_id="etl",
-    start_date=datetime(2024, 1, 15),
+    start_date=datetime(2025, 9, 11),
     schedule_interval="@hourly",
     catchup=False,
     max_active_runs=1,

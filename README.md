@@ -1,4 +1,4 @@
-# Airflow DAG Generator
+# Airflow v 2.9.2 DAG Generator
 
 ## Описание проекта
 
@@ -291,3 +291,4 @@ airflow_dag_generator/
 ## Автор
 
 Илья Нашахалов
+
